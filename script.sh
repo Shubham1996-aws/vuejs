@@ -3,4 +3,4 @@ npm install
 npm run build
 
 
-aws s3 sync ./dist s3://jenkinss3bucketadmin
+aws s3 cp ./dist s3://jenkinss3bucketadmin
