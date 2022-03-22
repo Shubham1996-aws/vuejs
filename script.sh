@@ -1,2 +1,3 @@
 #!/bin/sh
-aws s3 ls
+npm install
+npm run build
