@@ -17,7 +17,7 @@ pipeline {
         
         stage('Run Script') {
             steps {
-             
+                sh "chmod 777 script.sh" 
                 sh "./script.sh"
             }
         }
